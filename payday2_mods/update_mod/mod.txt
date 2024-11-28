@@ -1,0 +1,12 @@
+{
+    "name": "Mod Updater",
+    "description": "Automatically updates mods from GitHub",
+    "author": "El Chambeador",
+    "version": "1.0",
+    "hooks": [
+        {
+            "hook_id": "lib/managers/menumanager",
+            "script_path": "main.lua"
+        }
+    ]
+}
