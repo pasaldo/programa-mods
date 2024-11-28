@@ -3,13 +3,13 @@
 -- Función para ejecutar el script de Python
 local function check_for_updates()
     local python_script = ModPath .. "updater/updater.py"
-    local result = os.execute("python " .. python_script .. " check")
+    local result = os.execute("python " .. python_script .. "check_for_updates")
     return result == 0  -- returns true if there are updates available
 end
 
 local function download_updates()
     local python_script = ModPath .. "updater/updater.py"
-    os.execute("python " .. python_script .. " download")
+    os.execute("python " .. python_script .. "download_mod")
 end
 
 -- Crea el menú de actualización
