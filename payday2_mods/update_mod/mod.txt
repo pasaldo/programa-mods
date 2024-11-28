@@ -1,6 +1,6 @@
 {
     "name": "Mod Updater",
-    "description": "Automatically updates mods from GitHub",
+    "description": "Checks and downloads mods",
     "author": "El Chambeador",
     "version": "1.0",
     "hooks": [
