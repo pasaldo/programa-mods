@@ -10,7 +10,7 @@ import zipfile
 GITHUB_USER = "pasaldo"
 GITHUB_REPO = "programa-mods"
 GITHUB_BRANCH = "main"  # o "master", dependiendo de tu configuración
-MODS_JSON_PATH = "update_mod/mods.json"
+MODS_JSON_PATH = "mods.json"
 PAYDAY2_MODS_PATH = "../../"
 
 def get_remote_mods():

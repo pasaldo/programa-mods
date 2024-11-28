@@ -2,10 +2,7 @@
 
 -- Función para ejecutar el script de Python
 local function run_python_script()
-    -- Asegúrate de que la ruta al script de Python sea correcta
-    local python_script = "payday2_mods/mod_updater/updater.py"
-    
-    -- Ejecuta el script de Python
+    local python_script = ModPath .. "updater/updater.py"
     os.execute("python " .. python_script)
 end
 
