@@ -1,4 +1,4 @@
-# Nombre del archivo: updater.py
+# updater.py
 
 import json
 import requests
@@ -78,9 +78,10 @@ def update_mods():
         download_mod(mod)
     
     local_json_path = os.path.join(os.path.dirname(__file__), "mods.json")
+    os.makedirs(os.path.dirname(local_json_path), exist_ok=True)
     with open(local_json_path, 'w') as f:
         json.dump(remote_mods, f, indent=2)
-    print("Actualización de mods completada")
+    print(f"Actualización de mods completada. Archivo local actualizado: {local_json_path}")
 
 if __name__ == "__main__":
     update_mods()
