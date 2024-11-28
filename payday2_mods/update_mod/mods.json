@@ -40,5 +40,6 @@
     {"name": "Useful Hostages"},
     {"name": "Void UI"},
     {"name": "XP-Bank-Enhanced-Plus-master"},
-    {"name": "pointerfix"}
+    {"name": "pointerfix"},
+    {"name": "DisplayDeployableInMenu"}
 ]
