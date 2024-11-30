@@ -42,5 +42,9 @@
     {"name": "XP-Bank-Enhanced-Plus-master"},
     {"name": "pointerfix"},
     {"name": "DisplayDeployableInMenu"},
-    {"name": "InfamyPoolPenaltyRemoval"}
+    {"name": "InfamyPoolPenaltyRemoval"},
+    {"name": "Infamy in Lobby"},
+    {"name": "pre-u240.3-spawn-director-main"},
+    {"name": "pd2_check_for_wallbangs-main"},
+    {"name": "Replace less pagers modifier"}
 ]
