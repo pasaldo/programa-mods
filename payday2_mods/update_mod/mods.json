@@ -34,7 +34,6 @@
     {"name": "Stop crime spree crash on join"},
     {"name": "The Fixes"},
     {"name": "Transparent Pause Background (wo blur)"},
-    {"name": "Ultrawide Fix"},
     {"name": "unlock_all_dlcs"},
     {"name": "Useful Bots"},
     {"name": "Useful Hostages"},
@@ -47,5 +46,11 @@
     {"name": "pre-u240.3-spawn-director-main"},
     {"name": "pd2_check_for_wallbangs-main"},
     {"name": "Replace less pagers modifier"},
-    {"name": "Immersive Dodge Sounds"}
+    {"name": "Immersive Dodge Sounds"},
+    {"name": "Enhanced Hitmarkers"},
+    {"name": "Less obtrusive poison gas"},
+    {"name": "Music JukeBox Control"},
+    {"name": "MoreInventorySlots"},
+    {"name": "No Confirm Dialogs V2"},
+    {"name": "Viewmodel Tweak"}
 ]
